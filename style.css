@@ -1,0 +1,176 @@
+body {
+   /* margins */
+   margin: 0;
+   /* colors */
+   background-color: #f5f5f5;
+   /* white smoke */
+   font-size: 16px;
+   line-height: 24px;
+   /*vert wcs : #1FA597
+   orange wcs : #FBA858*/
+   /* fonts */
+   font-family: 'Gafata', sans-serif;
+}
+
+h4 {
+   font-family: 'Hind Guntur', sans-serif;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+h2 {
+   font-family: 'Hind Guntur', sans-serif;
+   font-size: 28px;
+   line-height: 35px;
+}
+
+header {
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+   background-color: #f5f5f5;
+}
+
+header nav ul li {
+   padding-top: 20px;
+   margin-left: 50px;
+}
+header nav ul li a {
+   color: black;
+   cursor: pointer;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #1FA597;
+   font-size: 20px;
+}
+
+/* le cadre avec les 4 images */
+
+#cadre {
+   margin-top: 70px;
+   width: 100%;
+}
+
+#cadre p {
+   color: white;
+}
+
+#up_left {
+   background-image: url(img/toureiffel2.jpg);
+   background-position: center;
+   width: 50%;
+   height: 400px;
+}
+
+#up_right {
+   background-image: url(img/dame3.jpg);
+   background-position: center;
+   width: 50%;
+   height: 400px;
+}
+
+#down_left {
+   background-image: url(img/montmartre1.jpg);
+   background-position: center;
+   width: 50%;
+   height: 400px;
+}
+
+#down_right {
+   background-image: url(img/pont4.jpg);
+   background-position: center;
+   width: 50%;
+   height: 400px;
+}
+
+/* description du photographe */
+
+#description {
+   width: 85%;
+   height: 180px;
+   text-align: justify;
+   margin-top: 10px;
+   color: #FBA858;
+}
+
+/* les avant-derniers articles */
+
+#last_post_container {
+   height: 300px;
+   margin-top: 60px;
+}
+
+.last_post {
+   display: flex;
+}
+
+.last_post_img {
+   flex: 1;
+}
+
+.last_post_text {
+   flex: 2;
+}
+
+#last_post_1 p img {
+   box-shadow: 0 8px 18px #616161;
+}
+
+#last_post_2 p img {
+   box-shadow: 0 8px 18px #616161;
+}
+
+h4 {
+   padding-left: 25px;
+}
+.text {
+   color: #1FA597;
+   padding: 20px;
+}
+
+button{
+   display: block;
+   border-radius: 5px;
+   background-color: #1FA597; 
+   width: 50%;
+   margin-left: 80px;
+}
+
+button a {
+   color: white;
+}
+
+button:hover {
+   background-color: #f5f5f5;
+   border-color: #1FA597;
+}
+
+button:hover a {
+   color: #FBA858;
+   text-decoration: none;
+}
+
+/* footer */
+
+footer {
+   background-color: #35383A;
+   color: #f5f5f5;
+   font-family: 'Cagliostro', sans-serif;
+   margin-top: 60px;
+}
+
+footer div ul li {
+   padding-top: 10px;
+   margin-left: 20px;
+}
+
+#heart {
+   float: right;
+}
+
+#down {
+   margin-left: -15px;
+   margin-right: -15px;
+}

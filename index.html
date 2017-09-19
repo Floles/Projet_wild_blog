@@ -28,56 +28,68 @@
          <div class="row">
             <div class="col-xs-6" id="up_left">
                <!--mettre les images dans le css en background-->
-               <p>Eiffel Tower : <br/><small>magic construction by Gustave Eiffel</small></p>
+               <p>The Eiffel Tower<br/><small>is a 326-meter tall iron tower (with antennas) o 1 located in Paris, at the north-western end of the Champ-de-Mars park on the outskirts of Paris. the Seine in the 7th arrondissement. Built by Gustave Eiffel and his collaborators for the Universal Exhibition of Paris of 1889, and initially named "300 meters tower".</small></p>
             </div>
             <div class="col-xs-6" id="up_right">
-               <p>Notre-Dame of Paris : <br/><small>beautiful cathedral with million visitors</small></p>
+               <p>Notre-Dame de Paris<br/><small>is the Cathedral of the Archdiocese of Paris, France. It is located in the east of the Ile de la Cité, in the 4th arrondissement of Paris. Its western facade dominates the square Notre-Dame - place Jean-Paul-II. This cathedral (also a minor basilica) today welcomes more than twenty million visitors a year (including fourteen who enter the cathedral), making it the most visited monument in Paris and throughout Europe.</small></p>
             </div>
          </div>
 
          <div class="row">
             <div class="col-xs-6" id="down_left">
-               <p>Montmartre : <br/><small>the place to be for artist and tourist</small></p>
+               <p>Montmartre<br/><small>is a district of the 18th arrondissement of Paris (France) covering the hill of the Butte Montmartre, which is one of the main tourist places in Paris. It is in this northern district of Paris that the highest point of the capital is located: 130.53 meters, altitude of the natural ground inside the cemetery of the Calvary, which adjoins the church Saint-Pierre of Montmartre.</small></p>
             </div>
             <div class="col-xs-6" id="down_right">
-               <p>Alexandre III bridge : <br/><small>bridge with gold</small></p>
+               <p>Alexandre III bridge<br/><small>It is a 45 meter wide metal bridge composed of a single arch of 107 meters with three articulation points, allowing to cross the Seine without intermediate point of support. Two stone tunnels are located at its ends. The bridge has several times changed colors; it went from gray to green-brown and then to pearl gray. It resumed its original colors during its only restoration in 1985.</small></p>
             </div>
          </div>
       </section>
       <!--fin du cadre-->
 
       <!--description photographe-->
-      <section class="container-fluid">
-         <div class="row" class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
-            <p>I'm a crazy photographer who love Paris. If I have a moment, I take my camera and across Paris. My pictures focus on famous historical monuments. I want to share my passion for photography and this beautiful town. Enjoy and open your eyes !</p>
+
+      <section id="description">
+         <div class="row col-xs-offset-2 col-xs-10">
+            <h2>About me :</h2>
+            <p>I'm a crazy photographer who loves Paris. As soon as I have a moment, I take my camera and I walk in Paris. My pictures focus on the famous historical monuments. Through my photos, I like to share emotions by playing with the lights of the city and the camera. My best rewards are the return of people when they tell me: "your photo is great I thought I was there." I am not a professional and my photos are very little retouched, I insist on the natural of the picture photographed. You want to discover more about my passion, so do not hesitate to look at my posts and to contact me.</p>
          </div>
       </section>
 
       <!--last posts-->
-      <section class="container">
+      <section id="last_post_container">
          <div class="row">
-            <div id="last_post_1" class=" col-xs-6">
-               <img src="http://via.placeholder.com/200x200" alt="placeholder" />
-               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <button><a href="#">See more</a></button>
+            <div class="last_post col-xs-6">
+               <div class="last_post_img">
+                  <p><img src="img/montmartre1.jpg" alt="placeholder" width="200px" height="200px" /></p>
+               </div>
+               <div class="last_post_text">
+                  <h4>Montmartre</h4>
+                  <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <button><a href="#">See more</a></button>
+               </div>
             </div>
-            <div class="col-xs-6" id="last_post_2">
-               <img src="http://via.placeholder.com/200x200" alt="placeholder" />
-               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <button><a href="#">See more</a></button>
+            <div class="col-xs-6 last_post">
+               <div class="last_post_img">
+                  <p><img src="img/dame3.jpg" alt="placeholder" width="200px" height="200px" /></p>
+               </div>
+               <div class="last_post_text">
+                  <h4>Notre-Dame de Paris</h4>
+                  <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                  <button><a href="#">See more</a></button>
+               </div>
             </div>
          </div>
       </section>
       <!--fin last post-->
 
-      <footer>
+      <footer id="down">
          <div class="row">
             <ul class="col-xs-12 list-inline">
                <li class="line-inline-item"><a href="#home">Home</a></li>
                <li class="line-inline-item"><a href="#article">Article</a></li>
                <li class="line-inline-item"><a href="#map">Map</a></li>
                <li class="line-inline-item"><a href="#contact">Contact</a></li>
-               <li class="line-inline-item">MADE WITH <img src="img/heart.png" alt="heart" width="25px" height="25px" /> BY WILDO CODA</li>
+               <li class="line-inline-item" id="heart">MADE WITH <img src="img/heart.png" alt="heart" width="23px" height="23px" /> BY WILDO CODA</li>
             </ul>
          </div>
       </footer>

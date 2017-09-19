@@ -53,8 +53,34 @@ a:hover {
    width: 100%;
 }
 
-#cadre p {
-   color: white;
+.cadre_image p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 8px;
+  line-height: 25px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 50px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+.cadre_image small {
+  opacity: 0;
+}
+
+.cadre_image.show-description small{
+   opacity: 1;
+}
+
+.show-description p {
+  height: 150px;
 }
 
 #up_left {
@@ -62,6 +88,7 @@ a:hover {
    background-position: center;
    width: 50%;
    height: 400px;
+   padding: 0;
 }
 
 #up_right {
@@ -69,6 +96,7 @@ a:hover {
    background-position: center;
    width: 50%;
    height: 400px;
+   padding: 0;
 }
 
 #down_left {
@@ -76,6 +104,7 @@ a:hover {
    background-position: center;
    width: 50%;
    height: 400px;
+   padding: 0;
 }
 
 #down_right {
@@ -83,6 +112,7 @@ a:hover {
    background-position: center;
    width: 50%;
    height: 400px;
+   padding: 0;
 }
 
 /* description du photographe */

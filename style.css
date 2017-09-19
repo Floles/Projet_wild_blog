@@ -21,8 +21,6 @@ a:hover {
 }
 
 body{
-	font-family: "Times New Roman", "sans-serif";
-	font-size: 18px;
 	/* margins */
 	margin: 5px;
 
@@ -45,6 +43,11 @@ h1 {
   font-size: 40px;
   line-height: 56px;
 	text-align: center;
+}
+
+.container-header {
+    position: relative;
+    width: 100%;
 }
 
 .container-section .container-section2 {

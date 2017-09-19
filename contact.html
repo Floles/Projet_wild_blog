@@ -1,26 +1,28 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cagliostro|Gafata|Hind+Guntur" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<head>
-   <meta charset="utf-8" />
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Cagliostro|Gafata|Hind+Guntur:600" rel="stylesheet">
-   <link rel="stylesheet" href="style.css" type="text/css">
-   <title>Projet Wildo Coda</title>
-</head>
+  <body>
 
-<body>
-   <div class="container-fluid">
-      <header class="row">
-         <img src="img/LOGO.svg" alt="logo wildo" class="col-xs-3" />
-         <nav class="col-xs-offset-4 col-xs-5">
-            <ul class="list-inline">
-               <li class="line-inline-item"><a href="#accueil">Accueil</a></li>
-               <li class="line-inline-item"><a href="#articles">Articles</a></li>
-               <li class="line-inline-item"><a href="#maps">Maps</a></li>
-               <li class="line-inline-item"><a href="#contact">Contact</a></li>
-            </ul>
-         </nav>
-      </header>
+  <div class="container-header">
+  <header>
+    <img src="LOGO.svg" alt="logo"/>
+  	<nav class="col-xs-11">
+  	<ul>
+  		<li><a href="page.accueil"></a>Home</li>
+  		<li><a href="page.articles"></a>Articles</li>
+  		<li><a href="page.carte"></a>Map</li>
+  		<li><a href="page.contact"></a>Contact Me</li>
+  	</ul>
+  	</nav>
+  </header>
+</div>
 
 <div><h1>Contact Me</h1></div>
 
@@ -38,25 +40,22 @@
   	<form method="post" action="traitement.php">
    		<input type="email" name="email" placeholder="@" size="30" maxlength="30"><br/><br/>
    		<input type=text name="Nom et prénom" id="Nom" placeholder="Ex: Wildo Coda" size="30" maxlength="20">
-   	<br/>
+   	</form><br/>
    		<textarea name="message" id="message" placeholder="Your message" rows="10" cols="50"></textarea><br/><br/>
    		<button>Submit</button>
-      </form>
   </section>
 </div>
 
-
+<div>
   <footer>
-     <div class="row">
-        <ul class="col-xs-12 list-inline">
-           <li class="line-inline-item"><a href="#home">Home</a></li>
-           <li class="line-inline-item"><a href="#article">Article</a></li>
-           <li class="line-inline-item"><a href="#map">Map</a></li>
-           <li class="line-inline-item"><a href="#contact">Contact</a></li>
-           <li class="line-inline-item">MADE WITH <img src="img/heart.png" alt="heart" width="25px" height="25px" /> BY WILDO CODA</li>
-        </ul>
-     </div>
+    <ul>
+       <li>Home</li>
+       <li>Article</li>
+       <li>Map</li>
+       <li>Contact</li>
+    </ul>
   </footer>
+  </div>
 
   </body>
 </html>

@@ -125,6 +125,26 @@ h2 {
   flex-wrap: wrap;
 }
 
+/* menu articles */
+.liste {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: white;
+  color: black;
+  font-family: 'Gafata', sans-serif;
+  padding: 20px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.liste li::before {
+  content: "♦";
+  color: #1FA597;
+  width: 1em;
+}
+
 .footer {
   /* colors */
   background-color: #35383A; /* dark grey */
@@ -180,6 +200,12 @@ h2 {
   border-color: #2F2F2F;
   border-width: 1px;
   border-style: solid;
+}
+
+.img-carousel {
+  width: 300px;
+  height: auto;
+  clip-path: rectangle(0, 0, 300px, 200px, 0px);
 }
 
 .article_text {

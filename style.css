@@ -40,7 +40,7 @@ header nav ul li a {
    cursor: pointer;
 }
 
-a:hover {
+header nav ul li a:hover {
    text-decoration: none;
    color: #1FA597;
    font-size: 20px;
@@ -59,20 +59,31 @@ a:hover {
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  padding: 8px;
-  line-height: 25px;
+  padding: 15px;
+  line-height: 23px;
+  font-size: 23px;
   text-align: justify;
   position: absolute;
   bottom: 0;
   margin: 0;
-  height: 50px;
+  height: 60px;
   transition: height .5s;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
+  cursor: pointer;
+}
+
+.cadre_image p:hover {
+   color: black;
+   background: rgb(245, 245, 245);
+   background: linear-gradient(bottom, rgba(245, 245, 245, 1), rgba(245, 245, 245, .4));
+   background: -webkit-linear-gradient(bottom, rgba(245, 245, 245,1), rgba(245, 245, 245,.4));
+   background: -moz-linear-gradient(bottom, rgba(245, 245, 245,1), rgba(245, 245, 245,.4));
 }
 
 .cadre_image small {
   opacity: 0;
+  font-size: 13px;
 }
 
 .cadre_image.show-description small{
@@ -80,23 +91,32 @@ a:hover {
 }
 
 .show-description p {
-  height: 150px;
+  height: 170px;
 }
 
 #up_left {
-   background-image: url(img/toureiffel2.jpg);
+   background-image: url("img/toureiffel3.jpg");
    background-position: center;
    width: 50%;
    height: 400px;
    padding: 0;
+}
+
+#up_left:hover {
+   background: url("img/toureiffel4.jpg");
 }
 
 #up_right {
    background-image: url(img/dame3.jpg);
-   background-position: center;
+   background-position: top;
    width: 50%;
    height: 400px;
    padding: 0;
+}
+
+#up_right:hover {
+   background-image: url("img/dame1.jpg");
+   background-position: top;
 }
 
 #down_left {
@@ -107,6 +127,10 @@ a:hover {
    padding: 0;
 }
 
+#down_left:hover {
+   background-image: url("img/montmartre3.jpg");
+}
+
 #down_right {
    background-image: url(img/pont4.jpg);
    background-position: center;
@@ -115,14 +139,27 @@ a:hover {
    padding: 0;
 }
 
+#down_right:hover {
+   background-image: url("img/pont5.jpg");
+}
+
 /* description du photographe */
 
 #description {
-   width: 85%;
-   height: 180px;
-   text-align: justify;
+   height: 230px;
+   background-color: #FBA858;
    margin-top: 10px;
-   color: #FBA858;
+   color: white;
+   margin: -15px;
+   padding: -15px;
+}
+
+#description p{
+   text-align: justify;
+   width: 85%;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 20px;
 }
 
 /* les avant-derniers articles */
@@ -130,6 +167,10 @@ a:hover {
 #last_post_container {
    height: 300px;
    margin-top: 60px;
+}
+
+#last_post_container h2, h4 {
+   color: #4A4A4A;
 }
 
 .last_post {
@@ -144,11 +185,7 @@ a:hover {
    flex: 2;
 }
 
-#last_post_1 p img {
-   box-shadow: 0 8px 18px #616161;
-}
-
-#last_post_2 p img {
+.last_post_img img{
    box-shadow: 0 8px 18px #616161;
 }
 
@@ -157,15 +194,18 @@ h4 {
 }
 .text {
    color: #1FA597;
-   padding: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 15px;
 }
 
 button{
    display: block;
    border-radius: 5px;
-   background-color: #1FA597; 
-   width: 50%;
+   background-color: #FBA858; 
+   width: 30%;
    margin-left: 80px;
+   font-weight: bold;
 }
 
 button a {
@@ -178,7 +218,7 @@ button:hover {
 }
 
 button:hover a {
-   color: #FBA858;
+   color: #1FA597;
    text-decoration: none;
 }
 

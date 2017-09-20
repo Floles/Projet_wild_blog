@@ -141,11 +141,11 @@ h2 {
 
 .article-date {
 /*
-  float: left;
+  float: right;
 */
-  position: relative;
-  left: 0px;
-  top: 0px;
+  text-align: right;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 1736px) {
@@ -189,6 +189,7 @@ h2 {
 
 .article_text > p {
   font-weight: normal;
+  text-align: justify;
 }
 
 .showmap-button {

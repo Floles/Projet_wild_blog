@@ -26,6 +26,14 @@ header nav ul li a {
    cursor: pointer;
 }
 
+.logo{
+  max-width:250px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+}
+
+
 a:hover {
    text-decoration: none;
    color: #1FA597;
@@ -255,10 +263,24 @@ footer div ul li {
     left:50%;
 }
 
-@media (max-width: 960px;) {
-.carteintg {
-display: none;
+@media screen and (max-width: 960px) {
+  .carteintg {
+    display: none;
+  }
+
+  .carteintp {
+    display: block;
+  }
 }
+
+@media (min-width: 960px) {
+  .carteintg {
+    display: block;
+  }
+
+  .carteintp {
+    display: none;
+  }
 }
 
 

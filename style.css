@@ -98,8 +98,20 @@ h2 {
   line-height: 39px;
 }
 
-.subh1 {
+.articles-title {
+  background-color: #FBA858;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.articles-title > h1 {
+  color: white;
+}
+
+.articles-title > p {
   text-align: center;
+  color: white;
   font-size: 26px;
   margin-bottom: 50px;
 }
@@ -154,7 +166,7 @@ h2 {
 }
 
 .spacer-top {
-  height: 70px;
+  height: 80px;
 }
 
 .container-row {
@@ -183,23 +195,28 @@ h2 {
   /*  align-content: space-around;
 */}
 
-.article-date {
-  /*
-  float: right;
-  */
-  text-align: right;
+.carousel-date {
+  color: #FBA858;
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  z-index: 3;
   margin-left: 0px;
   margin-bottom: 0px;
 }
-
 
 .carousel {
   width: 300px;
   height: 200px;
   border-radius: 0px;
-  border-color: #2F2F2F;
+  border-color: #1FA597;
   border-width: 1px;
   border-style: solid;
+}
+
+/* bootstrap carousel class*/
+.carousel-indicators {
+  bottom:-10px;
 }
 
 .img-carousel {
@@ -222,7 +239,7 @@ h2 {
 
   /* borders */
   border-radius: 0px;
-  border-color: #2F2F2F;
+  border-color: #1FA597;
   border-top: 1px;
   border-bottom: 1px;
   border-left: 0px;
@@ -257,7 +274,7 @@ h2 {
 }
 
 .glyphicon-chevron-left, .glyphicon-chevron-right {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 @media (min-width: 1736px) {
@@ -272,15 +289,13 @@ h2 {
     width: 30px;
     background-color: blue;
   }
-
   .article_text {
-
     /* margins */
     margin-top: 0px;
     /* borders */
     border-radius: 5px;
-    border-color: #2F2F2F;
     border-width: 1px;
     border-style: solid;
+    border-color: #1FA597;
   }
 }

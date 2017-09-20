@@ -38,16 +38,33 @@ body{
 	font-variant: normal;
 }
 
+.titre{
+  margin-top: 100px;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Hind Guntur', sans-serif;
   font-size: 40px;
   line-height: 56px;
 	text-align: center;
+  display: inline-block;
+}
+
+.image{
+  float: left;
+}
+
+.texte{
+  float: right;
+  margin-left: auto;
+  width: 75%;
 }
 
 .container-header {
     position: relative;
     width: 100%;
+    display: inline-block;
 }
 
 .container-section .container-section2 {

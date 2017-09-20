@@ -12,6 +12,7 @@ header nav ul li {
 header nav ul li a {
  color: black;
  cursor: pointer;
+
 }
 
 .logo{
@@ -21,10 +22,10 @@ header nav ul li a {
   height: auto;
 }
 
-
 a:hover {
  text-decoration: none;
  color: #1FA597;
  font-size: 20px;
  font-weight: bolder;
+
 }

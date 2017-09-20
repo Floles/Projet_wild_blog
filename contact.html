@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Blog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cagliostro|Gafata|Hind+Guntur" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Blog</title>
   </head>
 
-  <body>
 
-  <div class="container-header">
+  <body>
+<div class="container-fluid">
+
+
     <header class="row">
              <img src="img/LOGO.svg" alt="logo wildo" class="col-xs-3" />
              <nav class="col-xs-offset-4 col-xs-5">
@@ -22,40 +24,36 @@
                 </ul>
              </nav>
           </header>
-</div>
 
-<div class="titre"><h1>Contact Me</h1></div>
+<section class="container-section">
+  <h1>Contact Me</h1>
+  <div class="row">
+  	<p class="col-xs-2"><a><img src="img/photographe.jpg" width="200" height="150" alt="photo" class="image"></a></p>
+  	<p class="texte col-xs-10">If you wish to contact me or propose me new monuments to photograph.</br> Thank you for leaving me a message.</p>
+  </div>
+</section>
 
-</div>
-
-<div class="row">
-  <section class="container-section">
-  	<p class="image"><a class="col-xs-2"><img src="img/photographe.jpg" alt="photo"></a></p>
-  	<p class="texte">Nec piget dicere avide magis hanc insulam populum Romanum invasisse quam iuste. Ptolomaeo enim rege foederato nobis et socio ob aerarii nostri angustias iusso sine ulla culpa proscribi ideoque hausto veneno voluntaria morte deleto et tributaria facta est et velut hostiles eius exuviae classi inpositae in urbem advectae sunt per Catonem, nunc repetetur ordo gestorum.</p>
-  </section>
-</div>
-
-<div class="container-section2">
-  <section class="position">
-  	<form method="post" action="traitement.php">
-   		<input type="email" name="email" placeholder="@" size="50" maxlength="30"><br/><br/>
-   		<input type=text name="Nom et prénom" id="Nom" placeholder="Ex: Wildo Coda" size="50" maxlength="20">
-   	</form><br/>
-   		<textarea name="message" id="message" placeholder="Your message" rows="10" cols="50"></textarea><br/><br/>
+<section class="position">
+  	<form method="post" action="blog">
+   		<input type="email" name="email" placeholder="@" size="50" maxlength="30">
+   		<input type=text name="Nom et prénom" placeholder="Ex: Wildo Coda" size="50" maxlength="20">
+   		<textarea name="message" placeholder="Your message" rows="10" cols="50"></textarea>
+    </form>
    		<button>Submit</button>
   </section>
-</div>
 
-<div>
-  <footer>
-    <ul>
-       <li>Home</li>
-       <li>Article</li>
-       <li>Map</li>
-       <li>Contact</li>
+  <footer id="down">
+    <div class="row">
+    <ul class="col-xs-12 list-inline">
+       <li class="line-inline-item"><a href="#home">Home</a></li>
+       <li class="line-inline-item"><a href="#articles">Articles</a></li>
+       <li class="line-inline-item"><a href="#map">Map</a></li>
+       <li class="line-inline-item"><a href="#contact">Contact</a></li>
+       <li class="line-inline-item" id="heart">MADE WITH<img src="img/heart.png" alt="heart" width="23px" height="23px"/> BY WILD CODA</li>
     </ul>
+    </div>
   </footer>
-  </div>
 
+</div>
   </body>
 </html>

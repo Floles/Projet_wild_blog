@@ -3,6 +3,7 @@
 
 <head>
    <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css?family=Cagliostro|Gafata|Hind+Guntur:600" rel="stylesheet">
    <link rel="stylesheet" href="style.css" type="text/css">
@@ -12,13 +13,15 @@
 <body>
    <div class="container-fluid">
       <header class="row">
-         <img src="img/LOGO.svg" alt="logo wildo" class="col-xs-3" />
-         <nav class="col-xs-offset-4 col-xs-5">
+         <img class="logo col-xs-2" src="Img/png/logo123.png" alt="logo wildo">
+         <nav class="col-xs-offset-3 col-xs-7">
+
+
             <ul class="list-inline">
-               <li class="line-inline-item"><a href="#accueil">Accueil</a></li>
-               <li class="line-inline-item"><a href="#articles">Articles</a></li>
-               <li class="line-inline-item"><a href="#maps">Maps</a></li>
-               <li class="line-inline-item"><a href="#contact">Contact</a></li>
+               <li class="line-inline-item"><a href="#accueil">Wild Home</a></li>
+               <li class="line-inline-item"><a href="#articles">Wild Posts</a></li>
+               <li class="line-inline-item"><a href="#maps">Wild Map</a></li>
+               <li class="line-inline-item"><a href="#contact">Wild Contact</a></li>
             </ul>
          </nav>
       </header>
@@ -56,7 +59,7 @@
 
       <!--last posts-->
       <section id="last_post_container">
-        <h2>Last Posts...</h2>
+         <h2>Last Posts...</h2>
          <div class="row">
             <div class="last_post col-xs-6">
                <div class="last_post_img">
@@ -64,7 +67,7 @@
                </div>
                <div class="last_post_text">
                   <h4>Invalides</h4>
-                  <p class="text">"Les Invalides, commonly known as Hôtel national des Invalides (The National Residence of the Invalids), or also as Hôtel des Invalides, is a complex of buildings in the 7th arrondissement of Paris, France, containing museums and monuments, all relating to the military history of France..."</p>
+                  <p class="text">"Les Invalides, commonly known as Hôtel national des Invalides (The National Residence of the Invalids), or also as Hôtel des Invalides, is a complex of buildings in the 7th arrondissement of Paris, France, containing museums and monuments, all relating to the military of..."</p>
                   <button><a href="#">SEE MORE</a></button>
                </div>
             </div>
@@ -82,27 +85,43 @@
       </section>
       <!--fin last post-->
 
-      <footer id="down">
+      <footer>
          <div class="row">
-            <ul class="col-xs-12 list-inline">
-               <li class="line-inline-item"><a href="#home">Home</a></li>
-               <li class="line-inline-item"><a href="#article">Article</a></li>
-               <li class="line-inline-item"><a href="#map">Map</a></li>
-               <li class="line-inline-item"><a href="#contact">Contact</a></li>
-               <li class="line-inline-item" id="heart">MADE WITH <img src="img/heart.png" alt="heart" width="23px" height="23px" /> BY WILDO CODA</li>
+            <ul class="col-xs-12">
+               <li>MADE WITH <img src="Img/png/hearticon.png" alt="heart" width="25px" height="25px" /> BY WILDO CODA</li>
             </ul>
          </div>
+
+         <img class="ico1" src="Img/png/arcicon1.png" alt="Icon Arc of Triumph">
+         <img class="ico1" src="Img/png/notreicon1.png" alt="Icon Notre-Dame">
+         <img class="ico1" src="Img/png/parisicon1.png" alt="Icon Paris">
+         <img class="ico1" src="Img/png/sacreicon1.png" alt="Icon Sacre-Coeur">
+         <img class="ico1" src="Img/png/touricon1.png" alt="Icon Tour Eiffel">
+         <img class="ico1" src="Img/png/arcicon1.png" alt="Icon Arc of Triumph">
+         <img class="ico1" src="Img/png/notreicon1.png" alt="Icon Notre-Dame">
+         <img class="ico1" src="Img/png/parisicon1.png" alt="Icon Paris">
+         <img class="ico1" src="Img/png/sacreicon1.png" alt="Icon Sacre-Coeur">
+         <img class="ico1" src="Img/png/touricon1.png" alt="Icon Tour Eiffel">
+         <img class="ico1" src="Img/png/notreicon1.png" alt="Icon Notre-Dame">
+         <img class="ico1" src="Img/png/parisicon1.png" alt="Icon Paris">
+         <img class="ico1" src="Img/png/sacreicon1.png" alt="Icon Sacre-Coeur">
+         <img class="ico1" src="Img/png/touricon1.png" alt="Icon Tour Eiffel">
+         <img class="ico1" src="Img/png/notreicon1.png" alt="Icon Notre-Dame">
+         <img class="ico1" src="Img/png/parisicon1.png" alt="Icon Paris">
+
+
+
+         <p class="credit">Icons made by Plainicon from www.flaticon.com is licensed by "Creative Commons BY 3.0"</p>
+
+
       </footer>
    </div>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script> 
-<script>
-  $('.cadre_image').on('click', function(){
-    $(this).toggleClass('show-description');
-  });
-</script>
+   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+   <script>
+      $('.cadre_image').on('click', function() {
+         $(this).toggleClass('show-description');
+      });
+   </script>
 </body>
 
 </html>

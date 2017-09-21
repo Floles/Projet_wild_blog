@@ -40,6 +40,37 @@ a:hover {
    font-size: 20px;
    font-weight: bolder;
 }
+ 
+ header .fa {
+  display: none;
+ }
+
+ header button{
+  display: none;
+ }
+
+
+
+.menu {
+  margin-top: 70px;
+  background : grey;
+  height: 10vh;
+  position : fixed;
+  width: 200px;
+  right: -200px;
+  transition: right .5s ease;
+}
+
+
+.menu.open {
+  text-align: center;
+  top: 20px;
+  left: 0; 
+  background-color: white;
+  height: 130px;
+  border-radius:10px;
+}
+
 
 /* footer */
 
@@ -190,7 +221,7 @@ footer div ul li {
 
 .imagecarte {
 
-	text-align: center;
+  text-align: center;
     position: relative;
     margin: 350px;
     display: block;
@@ -271,6 +302,23 @@ footer div ul li {
   .carteintp {
     display: block;
   }
+
+header{
+  height: 100px;
+}
+  header .fa {
+  display:block;
+}
+
+header button {
+  display: block;
+  margin: 50px;
+}
+
+header nav ul li a {
+  display: none;
+}
+
 }
 
 @media (min-width: 960px) {
@@ -282,5 +330,6 @@ footer div ul li {
     display: none;
   }
 }
+
 
 

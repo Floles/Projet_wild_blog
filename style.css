@@ -237,6 +237,8 @@ h2 {
 
   overflow: auto;
 
+  position: relative;
+
   /* borders */
   border-radius: 0px;
   border-color: #1FA597;
@@ -260,16 +262,22 @@ h2 {
 }
 
 .showmap-button {
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   background-color: #f5f5f5; /* white smoke */
-  border-width: medium;
-  border-radius: 10px;
+  border-width: 1px;
+  border-radius: 4px;
   border-color: #FBA858;
-  padding: 5px;
+
+  /* position */
+  padding: 3px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+
+  font-size: 14px;
 }
 
 .showmap-button:hover {
+  font-size: 14px;
   background-color: white;
 }
 

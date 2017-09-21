@@ -3,6 +3,7 @@ header {
    width: 100%;
    z-index: 1;
    background-color: white;
+   margin-top: -8px;
 }
 
 header nav ul li {
@@ -53,6 +54,12 @@ h1 {
   line-height: 56px;
   text-align: center;
   margin-top: 110px;
+}
+
+.fond{
+  background-color:#FBA858;
+  color: white;
+  padding-top: 15px;
 }
 
 .image{
@@ -122,6 +129,7 @@ footer {
    font-family: 'Gafata', sans-serif;
    margin-left: -15px;
    margin-right: -15px;
+   margin-top: 20px;
 
 }
 

@@ -4,8 +4,13 @@
 <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="icon" href="Img/png/favicon.png">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css?family=Cagliostro|Gafata|Hind+Guntur:600" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css" type="text/css">
    <title>Projet Wildo Coda</title>
 </head>
@@ -13,24 +18,38 @@
 <body>
    <div class="container-fluid">
       <header class="row">
-         <img class="logo col-xs-2" src="Img/png/logo123.png" alt="logo wildo">
-         <nav class="col-xs-offset-3 col-xs-7">
 
+         <img class="logo col-xs-2" src="Img/png/logo123.png" alt="logo wildo" >
 
-            <ul class="list-inline">
-               <li class="line-inline-item"><a href="#accueil">Wild Home</a></li>
-               <li class="line-inline-item"><a href="#articles">Wild Posts</a></li>
-               <li class="line-inline-item"><a href="#maps">Wild Map</a></li>
-               <li class="line-inline-item"><a href="#contact">Wild Contact</a></li>
-            </ul>
-         </nav>
-      </header>
+<button class="burger"><i class="fa fa-bars" aria-hidden="true"></i></button>
+<div class="menu">
+<button class="close">x</button>
+<a href="index.html">Wild Home</a>
+<a href="articles.html">Wild Posts</a>
+<a href="carte.html">Wild Map</a>
+<a href="contact.html">Wild Contact</a>
+</div>
+
+		<nav class="col-xs-offset-3 col-xs-7" >
+
+			<ul class="list-inline">
+				<li class="line-inline-item"><a href="index.html">Wild Home</a></li>
+				<li class="line-inline-item"><a href="articles.html">Wild Posts</a></li>
+				<li class="line-inline-item"><a href="carte.html">Wild Map</a></li>
+				<li class="line-inline-item"><a href="contact.html">Wild Contact</a></li>
+				<li class="sidebar line-inline-item"> <a href="http://www.twitter.fr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<li class="sidebar line-inline-item"> <a href="http://www.facebook.com"><i class="fa fa-facebook-official i2" aria-hidden="true"></i></a></li>
+				<li class="sidebar line-inline-item"> <a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i></a>					</li>
+</ul>
+</nav>
+
+</header>
 
       <!--le cadre avec les 4 images-->
       <section id="cadre">
          <div class="row">
             <div class="col-xs-6 cadre_image" id="up_left">
-               <p>The Eiffel Tower<br/><small>is a 326-meter tall iron tower (with antennas) o 1 located in Paris, at the north-western end of the Champ-de-Mars park on the outskirts of Paris. the Seine in the 7th arrondissement. Built by Gustave Eiffel and his collaborators for the Universal Exhibition of Paris of 1889, and initially named "300 meters tower".</small></p>
+               <p>The Eiffel Tower<br/><small>is a 326-meter tall iron tower (with antennas) located in Paris, at the north-western end of the Champ-de-Mars park on the outskirts of Paris. The Seine in the 7th arrondissement. Built by Gustave Eiffel and his collaborators for the Universal Exhibition of Paris of 1889, and initially named "300 meters tower".</small></p>
             </div>
             <div class="col-xs-6 cadre_image" id="up_right">
                <p>Notre-Dame de Paris<br/><small> is the Cathedral of the Archdiocese of Paris, France. It is located in the east of the Ile de la Cité, in the 4th arrondissement of Paris. Its western facade dominates the square Notre-Dame - place Jean-Paul-II. This cathedral (also a minor basilica) today welcomes more than twenty million visitors a year (including fourteen who enter the cathedral), making it the most visited monument in Paris and throughout Europe.</small></p>
@@ -53,7 +72,7 @@
       <section id="description">
          <div class="row col-xs-offset-2 col-xs-10">
             <h2>About Me :</h2>
-            <p>I'm a crazy photographer who loves Paris. As soon as I have a moment, I take my camera and I walk in Paris. My pictures focus on the famous historical monuments. Through my photos, I like to share emotions by playing with the lights of the city and the camera. My best rewards are the return of people when they tell me: "your photo is great I thought I was there." I am not a professional and my photos are very little retouched, I insist on the natural of the picture photographed. You want to discover more about my passion, so do not hesitate to look at my <a href="#articles">posts</a> and to <a href="#contact">contact me.</a></p>
+            <p>I'm a crazy photographer who loves Paris. As soon as I have a moment, I take my camera and I walk in Paris. My pictures focus on the famous historical monuments. Through my photos, I like to share emotions by playing with the lights of the city and the camera. My best rewards are the return of people when they tell me: "your photo is great I thought I was there." I am not a professional and my photos are very little retouched, I insist on the natural of the picture photographed. You want to discover more about my passion, so do not hesitate to look at my <a href="articles.html">posts</a> and to <a href="contact.html">contact me.</a></p>
          </div>
       </section>
 
@@ -68,7 +87,7 @@
                <div class="last_post_text">
                   <h4>Invalides</h4>
                   <p class="text">"Les Invalides, commonly known as Hôtel national des Invalides (The National Residence of the Invalids), or also as Hôtel des Invalides, is a complex of buildings in the 7th arrondissement of Paris, France, containing museums and monuments, all relating to the military of..."</p>
-                  <button><a href="#">SEE MORE</a></button>
+                  <button><a href="articles.html">SEE MORE</a></button>
                </div>
             </div>
             <div class="col-xs-6 last_post">
@@ -78,7 +97,7 @@
                <div class="last_post_text">
                   <h4>Le Louvre</h4>
                   <p class="text">"The Louvre or the Louvre Museum is the world's largest art museum and an historic monument in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement (district or ward).Approximately 38,000 objects from prehistory..."</p>
-                  <button><a href="#">SEE MORE</a></button>
+                  <button><a href="articles.html">SEE MORE</a></button>
                </div>
             </div>
          </div>

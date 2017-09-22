@@ -376,7 +376,7 @@ h2 {
 
 /* a banner after the first six articles */
 .midbanner {
-  width: 2500px;
+  width: 100%;
   margin-left: -250px;
   margin-right: -250px;
   background-color: #1FA597;

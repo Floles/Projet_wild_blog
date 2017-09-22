@@ -150,12 +150,12 @@ h1 {
 
 .texte{
   text-align: center;
-  margin-left:10px;
+  margin-left: 30px;
   margin-top: 70px;
   width: 75%;
-  font-size: 30px;
+  font-size: 25px;
   display: block;
-  line-height: 45px;
+  line-height: 37px;
 }
 
 .position{

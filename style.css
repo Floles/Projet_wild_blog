@@ -282,7 +282,7 @@ h4 {
    padding-bottom: 15px;
 }
 
-button {
+.last_post_text button {
    display: block;
    border-radius: 5px;
    background-color: #FBA858;
@@ -291,16 +291,16 @@ button {
    font-weight: bold;
 }
 
-button a {
+.last_post_text button a {
    color: white;
 }
 
-button:hover {
+.last_post_text button:hover {
    background-color: #f5f5f5;
    border-color: #1FA597;
 }
 
-button:hover a {
+.last_post_text button:hover a {
    color: #1FA597;
    text-decoration: none;
 }

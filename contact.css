@@ -170,7 +170,7 @@ h1 {
   margin-top: 20px;
 }
 
-button{
+.position button{
   display:block;
   width:150px;
   line-height:50px;
@@ -185,7 +185,7 @@ button{
   opacity: 1;
 }
 
-button:hover{
+.position button:hover{
   background-color: #FBA858;
   color: white;
 }

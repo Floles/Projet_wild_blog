@@ -1,33 +1,101 @@
 header {
-   position: fixed;
-   width: 100%;
-   z-index: 1;
-   background-color: white;
-   margin-top: -8px;
+position: fixed;
+width: 100%;
+z-index: 1;
+background-color: white;
 }
 
 header nav ul li {
-   padding-top: 20px;
-   margin-left: 50px;
+padding-top: 20px;
+margin-left: 50px;
 }
 header nav ul li a {
-   color: black;
-   cursor: pointer;
+color: black;
+cursor: pointer;
 }
 
 .logo{
-  max-width:250px;
-  max-height:80px;
-  width: auto;
-  height: auto;
+max-width:250px;
+max-height:80px;
+width: auto;
+height: auto;
 }
 
 
 a:hover {
-   text-decoration: none;
-   color: #1FA597;
-   font-size: 20px;
-   font-weight: bolder;
+text-decoration: none;
+color: #1FA597;
+font-size: 20px;
+font-weight: bolder;
+}
+
+header .burguer {
+display: none;
+}
+
+header button{
+display: none;
+}
+
+
+
+
+
+.menu {
+margin-top: 70px;
+background : grey;
+height: 10vh;
+position : fixed;
+width: 200px;
+right: -200px;
+transition: right .5s ease;
+}
+
+
+.menu.open {
+text-align: center;
+top: 20px;
+left: 0; 
+background-color: white;
+height: 130px;
+border-radius:10px;
+}
+
+.sidebar {
+width: 30px;
+height: auto;
+}
+
+.sidebar i {
+font-size: 50px;
+}
+
+.i1 {
+color: #1FA597;
+}
+
+.i2 {
+color: orange;
+}
+
+
+@media screen and (max-width: 960px) {
+header{
+height: 100px;
+}
+header .burguer {
+display:block;
+}
+
+header button {
+display: block;
+margin: 50px;
+}
+
+header nav ul li a {
+display: none;
+}
+
 }
 
 body{
@@ -166,19 +234,6 @@ footer div ul li {
     border-radius:150px;
     width:250px;
     height:250px
-  }
-  nav{
-    width: auto;
-    text-align: left;
-  }
-  nav ul{
-    flex-direction: column;
-  }
-  nav li{
-    padding-left: 4px;
-  }
-  nav a{
-    font-size: 1.1em;
   }
   .texte{
     margin-top:250px;
